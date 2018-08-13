@@ -7,12 +7,12 @@
 # }
 
 # 1. Complete the method below called location, that accepts a hash called weather as an argument so that it returns the value of city from the weather hash. 
-def location(weather)
+def location(hash)
   return hash[:city]
 end
 
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash. 
-def description(weather)
+def description(hash)
   return hash[:description]
 end
 
