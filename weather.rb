@@ -8,7 +8,8 @@
 
 # 1. Complete the method below called location, that accepts a hash called weather as an argument so that it returns the value of city from the weather hash. 
 def location(weather)
- weather.each_key |
+ weather.each_key |:city|
+ return :city
  
 end
 
